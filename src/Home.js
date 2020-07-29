@@ -34,7 +34,11 @@ const App = () => {
           <p>
             Want to hear some mixes?:
             <br />
-            <a href="https://www.mixcloud.com/michael-sawlani/" target="_blank">
+            <a
+              rel="noopener"
+              href="https://www.mixcloud.com/michael-sawlani/"
+              target="_blank"
+            >
               My Mixcloud Profile
             </a>
           </p>
@@ -42,7 +46,11 @@ const App = () => {
           <p>
             Do you like TwitchTV?:
             <br />
-            <a href="https://www.twitch.tv/sinsofaninja" target="_blank">
+            <a
+              rel="noopener"
+              href="https://www.twitch.tv/sinsofaninja"
+              target="_blank"
+            >
               My Twitch Channel
             </a>
           </p>
