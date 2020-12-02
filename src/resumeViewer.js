@@ -10,7 +10,15 @@ const ResumeViewer = () => {
         Download My Resume
       </a> */}
       {/* <br /> */}
-      <a href={pdf} target = "_blank"> Download Resume</a>
+      <a
+        className="pl-5 pb-3"
+        style={{ fontSize: "20px" }}
+        href={pdf}
+        target="_blank"
+      >
+        {" "}
+        Download Resume
+      </a>
     </div>
   );
 };
