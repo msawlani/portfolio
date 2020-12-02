@@ -30,27 +30,22 @@ const Projects = () => {
           </p>
           <button>Show Pictures</button>
           <br />
+          <img
+            loading="lazy"
+            src={BBLogin}
+            alt="Login"
+            width="500"
+            height="800"
+          />
+          <img
+            style={{ marginLeft: "170px" }}
+            loading="lazy"
+            src={BBTransactions}
+            alt="Transactions"
+            width="500"
+            height="800"
+          />
 
-          <ul style={{ listStyle: "none" }}>
-            <li>
-              <img
-                loading="lazy"
-                src={BBLogin}
-                alt="Login"
-                width="500"
-                height="800"
-              />
-            </li>
-            <li>
-              <img
-                loading="lazy"
-                src={BBTransactions}
-                alt="Transactions"
-                width="500"
-                height="800"
-              />
-            </li>
-          </ul>
           <br />
           <li>
             <b> Memorandum Shopper | IOS App</b>
@@ -66,26 +61,21 @@ const Projects = () => {
           </p>
           <button>Show Pictures</button>
           <br />
-          <ul style={{ listStyle: "none" }}>
-            <li>
-              <img
-                loading="lazy"
-                src={MSLogin}
-                alt="Login"
-                width="500"
-                height="800"
-              />
-            </li>
-            <li>
-              <img
-                loading="lazy"
-                src={MSList}
-                alt="Grocery List"
-                width="500"
-                height="800"
-              />
-            </li>
-          </ul>
+          <img
+            loading="lazy"
+            src={MSLogin}
+            alt="Login"
+            width="500"
+            height="800"
+          />
+          <img
+            style={{ marginLeft: "170px" }}
+            loading="lazy"
+            src={MSList}
+            alt="Grocery List"
+            width="500"
+            height="800"
+          />
         </ul>
       </div>
 
@@ -106,27 +96,22 @@ const Projects = () => {
           <button>Show Pictures</button>
           <br />
           <br />
-          <ul style={{ listStyle: "none" }}>
-            <li>
-              <img
-                loading="lazy"
-                src={MDHome}
-                alt="Home"
-                width="500"
-                height="300"
-              />
-            </li>
-            <br />
-            <li>
-              <img
-                loading="lazy"
-                src={MDApp}
-                alt="Appointment"
-                width="500"
-                height="300"
-              />
-            </li>
-          </ul>
+
+          <img
+            loading="lazy"
+            src={MDHome}
+            alt="Home"
+            width="500"
+            height="300"
+          />
+          <img
+            style={{ marginLeft: "170px" }}
+            loading="lazy"
+            src={MDApp}
+            alt="Appointment"
+            width="500"
+            height="300"
+          />
           <li>
             <a target="_blank">
               <b>Curbside Pickup</b>

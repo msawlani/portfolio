@@ -3,6 +3,8 @@
   height: 50px;
   background-color: black;
   margin-top: auto;
+  position: fixed;
+  bottom: 0px;
 }
 
 h5 {

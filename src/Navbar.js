@@ -10,12 +10,15 @@ const nav = () => {
   return (
     <nav className="d-flex">
       <h3>Portfolio</h3>
-      <ul className="d-flex pt-2" style={{ listStyle: "none" }}>
+      <ul className="d-flex pt-2 mr-5" style={{ listStyle: "none" }}>
         <Link style={navStyle} to="/">
-          <li className="mr-5">Home</li>
+          <li className="mr-4">Home</li>
         </Link>
-        <Link className="pr-5" style={navStyle} to="/projects">
+        <Link className="pr-4" style={navStyle} to="/projects">
           <li>Projects</li>
+        </Link>
+        <Link className="pr-4" style={navStyle} to="/">
+          <li>About</li>
         </Link>
       </ul>
     </nav>

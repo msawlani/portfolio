@@ -1,4 +1,6 @@
 import React, { useState, Fragment } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMixcloud, faTwitch } from "@fortawesome/free-brands-svg-icons";
 
 const Copyright = React.lazy(() => import("./shared/copyright"));
 const ResumeViewer = React.lazy(() => import("./resumeViewer"));
@@ -20,13 +22,12 @@ const App = () => {
           JavaScript to develope the site. I will have more detail about this
           under projects. So far I have learned C#, HTML, Python, and Swift just
           to name a few. I plan on learning more about React, React-Native, and
-          JavaScript. My ultimate goal is to develop a program or app that
-          everyone can use in their everyday life.
+          JavaScript. My ultimate goal is to develope an app or website that
+          will make a difference in this world.
         </p>
       </Fragment>
-
       <ResumeViewer />
-
+      <br />
       <Fragment>
         <h2 className="pl-3">Hobbies</h2>
         <ul className="pl-5">
@@ -39,19 +40,19 @@ const App = () => {
               href="https://www.mixcloud.com/michael-sawlani/"
               target="_blank"
             >
-              My Mixcloud Profile
+              <FontAwesomeIcon icon={faMixcloud} size="2x" />
             </a>
           </p>
           <li>Streaming Video Games</li>
           <p>
-            Do you like TwitchTV?:
+            Do you use TwitchTV?:
             <br />
             <a
               rel="noopener"
               href="https://www.twitch.tv/sinsofaninja"
               target="_blank"
             >
-              My Twitch Channel
+              <FontAwesomeIcon icon={faTwitch} size="2x" />
             </a>
           </p>
         </ul>
