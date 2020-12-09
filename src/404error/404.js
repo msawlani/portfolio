@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Copyright from "../shared/copyright";
 
 const Error404 = () => {
   return (
-    <div>
-      <div>
+    <Fragment>
+      <Fragment>
         <h1
           className=" mt-5 text-center font-weight-bold"
           style={{
@@ -13,10 +13,10 @@ const Error404 = () => {
         >
           404'd, Page Not Found!
         </h1>
-      </div>
+      </Fragment>
 
       <Copyright />
-    </div>
+    </Fragment>
   );
 };
 
