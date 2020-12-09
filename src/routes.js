@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, Fragment } from "react";
 import { Switch, Route } from "react-router";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./Home";
@@ -11,16 +11,16 @@ const Routes = () => {
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
-        <div>
+        <Fragment>
           <Nav />
-          <div>
+          <Fragment>
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/projects" exact component={Projects} />
               <Route path="**" exact component={Error404} />
             </Switch>
-          </div>
-        </div>
+          </Fragment>
+        </Fragment>
       </Suspense>
     </Router>
   );

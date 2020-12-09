@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Copyright from "../shared/copyright";
 import BBLogin from "../assets/BudgetBuster/Login.png";
 import BBTransactions from "../assets/BudgetBuster/Transactions.png";
@@ -9,11 +9,11 @@ import MDApp from "../assets/MyPediatricMD/RequestAppointment.JPG";
 
 const Projects = () => {
   return (
-    <div>
-      <div>
+    <Fragment>
+      <Fragment>
         <h1 className="mt-5 text-center">Projects</h1>
-      </div>
-      <div>
+      </Fragment>
+      <Fragment>
         <h2 className="pl-3">College Projects</h2>
         <ul>
           <li>
@@ -34,16 +34,17 @@ const Projects = () => {
             loading="lazy"
             src={BBLogin}
             alt="Login"
-            width="500"
-            height="800"
+            display="inline-block"
+            width="20%"
+            height="auto"
           />
           <img
-            style={{ marginLeft: "170px" }}
             loading="lazy"
             src={BBTransactions}
             alt="Transactions"
-            width="500"
-            height="800"
+            display="inline-block"
+            width="20%"
+            height="auto"
           />
 
           <br />
@@ -65,21 +66,22 @@ const Projects = () => {
             loading="lazy"
             src={MSLogin}
             alt="Login"
-            width="500"
-            height="800"
+            display="inline-block"
+            width="25%"
+            height="auto"
           />
           <img
-            style={{ marginLeft: "170px" }}
             loading="lazy"
             src={MSList}
             alt="Grocery List"
-            width="500"
-            height="800"
+            display="inline-block"
+            width="25%"
+            height="auto"
           />
         </ul>
-      </div>
+      </Fragment>
 
-      <div>
+      <Fragment>
         <h2>Job Projects</h2>
         <ul>
           <li>
@@ -101,16 +103,17 @@ const Projects = () => {
             loading="lazy"
             src={MDHome}
             alt="Home"
-            width="500"
-            height="300"
+            display="inline-block"
+            width="25%"
+            height="auto"
           />
           <img
-            style={{ marginLeft: "170px" }}
             loading="lazy"
             src={MDApp}
             alt="Appointment"
-            width="500"
-            height="300"
+            display="inline-block"
+            width="25%"
+            height="auto"
           />
           <li>
             <a target="_blank">
@@ -150,9 +153,9 @@ const Projects = () => {
             </li>
           </ul>
         </ul>
-      </div>
+      </Fragment>
       <Copyright />
-    </div>
+    </Fragment>
   );
 };
 
