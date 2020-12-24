@@ -1,11 +1,10 @@
 import React, { Fragment } from "react";
-import Copyright from "../shared/copyright";
-import BBLogin from "../assets/BudgetBuster/Login.png";
-import BBTransactions from "../assets/BudgetBuster/Transactions.png";
-import MSList from "../assets/MemorandumShopper/GroceryList.png";
-import MSLogin from "../assets/MemorandumShopper/Login Screen.png";
-import MDHome from "../assets/MyPediatricMD/Home.JPG";
-import MDApp from "../assets/MyPediatricMD/RequestAppointment.JPG";
+import BBLogin from "./assets/BudgetBuster/Login.png";
+import BBTransactions from "./assets/BudgetBuster/Transactions.png";
+import MSList from "./assets/MemorandumShopper/GroceryList.png";
+import MSLogin from "./assets/MemorandumShopper/Login Screen.png";
+import MDHome from "./assets/MyPediatricMD/Home.JPG";
+import MDApp from "./assets/MyPediatricMD/RequestAppointment.JPG";
 
 const Projects = () => {
   return (
@@ -14,7 +13,7 @@ const Projects = () => {
         <h1 className="mt-5 text-center">Projects</h1>
       </Fragment>
       <Fragment>
-        <h2 className="pl-3">College Projects</h2>
+        <h2 className="pl-3">College</h2>
         <ul>
           <li>
             <b> Budget Buster | IOS App </b>
@@ -82,7 +81,7 @@ const Projects = () => {
       </Fragment>
 
       <Fragment>
-        <h2>Job Projects</h2>
+        <h2 className="pl-3">Job</h2>
         <ul>
           <li>
             <a href="http://www.mypediatricmd.com/" target="_blank">
@@ -154,7 +153,6 @@ const Projects = () => {
           </ul>
         </ul>
       </Fragment>
-      <Copyright />
     </Fragment>
   );
 };
