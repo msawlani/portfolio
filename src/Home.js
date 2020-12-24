@@ -2,7 +2,6 @@ import React, { useState, Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMixcloud, faTwitch } from "@fortawesome/free-brands-svg-icons";
 
-const Copyright = React.lazy(() => import("./shared/copyright"));
 const ResumeViewer = React.lazy(() => import("./resumeViewer"));
 
 const App = () => {
@@ -19,13 +18,13 @@ const App = () => {
           <p className="pl-5 pr-5">
             I am a Software Developer from Full Sail University and currently, I
             am working at Sogeti as an consultant and I recently started my duel
-            master in Computer Engineering and Information Technology. Before
+            masters in Computer Engineering and Information Technology. Before
             Sogeti, I was a remote web developer for my dad's Pediatric website.
             We used HTML, CSS, and JavaScript to develop the site. I will have
             more detail about this under projects. So far I have learned C#,
             HTML, Python, and Swift just to name a few. I plan on learning more
-            about React, React-Native, and JavaScript. My ultimate goal is to
-            develope an app or website that will make a difference in this
+            about React, React-Native, JavaScript, and next.js. My ultimate goal is to
+            develop an app or website that will make a difference in this
             world.
           </p>
         </Fragment>
@@ -60,7 +59,6 @@ const App = () => {
             </p>
           </ul>
         </Fragment>
-        <Copyright />
       </Fragment>
     </body>
   );
