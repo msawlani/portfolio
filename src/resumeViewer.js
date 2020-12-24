@@ -17,7 +17,7 @@ const ResumeViewer = () => {
         target="_blank"
       >
         {" "}
-        Download Resume
+        View/Download Resume
       </a>
     </Fragment>
   );
