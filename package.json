@@ -19,6 +19,7 @@
     "react-file-viewer": "^1.2.1",
     "react-image-gallery": "^1.0.8",
     "react-pdf": "^4.2.0",
+    "react-pwa": "^0.0.1",
     "react-responsive": "^8.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
