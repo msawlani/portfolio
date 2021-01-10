@@ -5,6 +5,7 @@ import MSList from "./assets/MemorandumShopper/GroceryList.png";
 import MSLogin from "./assets/MemorandumShopper/Login Screen.png";
 import MDHome from "./assets/MyPediatricMD/Home.JPG";
 import MDApp from "./assets/MyPediatricMD/RequestAppointment.JPG";
+import "./CSS/projects.css";
 
 const Projects = () => {
   return (
@@ -15,7 +16,26 @@ const Projects = () => {
       <Fragment>
         <h2 className="pl-3">College</h2>
         <ul>
-          <li>
+          <div className="pr-5">
+            <div class="card">
+              <div class="card-title">
+                <h2 className="text-center">Budget Buster | IOS</h2>
+                <h4 className="text-center">XCode & Swift</h4>
+              </div>
+              <div class="card-body">
+                <h2>Tasks</h2>
+                <ul>
+                  <li>Implemented Google Firebase</li>
+                  <li>Enhanced a way for users to see transactions</li>
+                  <li>Implemented Google Firebase</li>
+                  <li>Implemented Google Firebase</li>
+                  <li>Implemented Google Firebase</li>
+                  <li>Implemented Google Firebase</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* <li>
             <b> Budget Buster | IOS App </b>
           </li>
           <p>
@@ -44,7 +64,7 @@ const Projects = () => {
             display="inline-block"
             width="20%"
             height="auto"
-          />
+          /> */}
 
           <br />
           <li>

@@ -1,0 +1,9 @@
+.card-img-top{
+    width: 25%!important;
+    height: auto!important;
+}
+
+.card{
+    width: auto;
+    align-items: center;
+}
