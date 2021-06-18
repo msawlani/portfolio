@@ -15,8 +15,8 @@ const ResumeViewer = () => {
         style={{ fontSize: "20px" }}
         href={pdf}
         target="_blank"
+        download={pdf}
       >
-        {" "}
         View/Download Resume
       </a>
     </Fragment>

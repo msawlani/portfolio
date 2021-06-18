@@ -1,22 +1,22 @@
-nav {
-  margin: -8px;
+.copyright {
+  margin-bottom: auto;
+  bottom: 0px;
   padding: 20px 0px 0px;
   height: 50px;
   width: 100%;
   background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   position: fixed;
-  top: 0px;
   left: 0px;
   float: left;
-  margin: 0 0 3em;
   padding: 0 0 2px;
   z-index: 1;
 }
 
-h3 {
-  padding-left: 20px;
+h5 {
   color: white;
+  text-align: center;
+  padding-top: 13px;
 }
+
+

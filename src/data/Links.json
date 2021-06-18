@@ -1,0 +1,6 @@
+{
+    "Links":[
+        {"Name":"Home", "To": "/"},
+        {"Name":"Projects", "To": "/projects"}
+    ]
+}

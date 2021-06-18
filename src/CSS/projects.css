@@ -1,9 +1,96 @@
-.card-img-top{
-    width: 25%!important;
-    height: auto!important;
-}
 
 .card{
+    border-style: solid !important;
+    border-color: gray !important;
+}
+
+.mobileImg{
+    width: 200px;
+    height: 400px;
+    
+}
+
+.desktopImg{
     width: auto;
-    align-items: center;
+    height: 400px;
+    
+}
+.images{
+    float: right;
+
+    }
+@media only screen and (max-width: 360px){
+   .mobileImg{
+    width: auto;
+        max-height: 320px;
+    
+    }
+       .desktopImg{
+    width: auto;
+    height: 100px;
+    }
+    .images{
+            justify-content: center;
+            display: flex;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 575px){
+   .mobileImg{
+    width: 100px;
+    height: 200px;
+    
+    }
+           .desktopImg{
+    width: auto;
+    max-height: 120px;
+    
+    }
+    .images{
+            justify-content: center;
+            display: flex;
+
+    }
+
+}
+@media only screen and (max-width: 767px){
+       .mobileImg{
+    width: 100px;
+    height: 200px;
+    
+    }
+    .name{
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+       .mobileImg{
+    width: 100px;
+    height: 200px;
+    
+    }
+    .name{
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+       .mobileImg{
+    width: 100px;
+    height: 200px;
+    
+    }
+    .name{
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
 }

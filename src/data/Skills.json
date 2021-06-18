@@ -1,0 +1,29 @@
+{
+    "Skills":[{
+        "Name":"Languages", 
+        "Skills":[
+        {"Name":"CSS"},
+        {"Name":"HTML"},
+        {"Name":"C#"},
+        {"Name":"Java"},
+        {"Name":"Swift"},
+        {"Name":"Bootstrap"}
+        ]
+    },
+    {
+        "Name":"Personal", 
+        "Skills":[
+        {"Name":"Communication"}
+        ]
+    },
+    {
+        "Name":"Platforms", 
+        "Skills":[
+        {"Name":"React"},
+        {"Name":"NextJS"},
+        {"Name":"NodeJS"},
+        {"Name":"Visual Studio Code"}
+        ]
+    }
+]
+}

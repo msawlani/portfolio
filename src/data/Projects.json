@@ -1,0 +1,73 @@
+{
+        "MobileProjects":[{
+        "Name":"Budget Buster",
+        "Platform" : "IOS",
+        "Technical": ["Xcode", "Swift", "Firebase"],
+        "Tasks":[
+                "Implemented Google Firebase",
+                "Enhanced a way for users to see transactions"
+            ],
+        "Images":["Transactions", "PieChartExpenseList"]
+        },
+        {
+        "Name":"Memorandum Shopper",
+        "Platform" : "IOS",
+        "Technical": ["Xcode", "Swift","Firebase"],
+        "Tasks":[
+                "Implemented Google Firebase",
+                "Enhanced a way for users to see transactions"
+            ],
+                    "Images":[]
+
+        },
+        {
+        "Name":"PGP Smart Assist",
+        "Platform" : "Progressive Web App",
+        "Technical": ["React.JS","Next.JS", "JavaScript", "Visual Studio Code", "HTML", "Bootstrap", "CSS","Salesforce Pardot", "PriceSpyder"],
+        "Tasks":[
+                "Implemented emailing results by using Salesforce Pardot",
+                "Integrated PriceSpyder for each recommended product",
+                "Designed the footer"
+            ],
+        "Images":[]
+
+        },
+        {
+        "Name":"Insurance Auto Auctions (IAA)",
+        "Platform" : "Data Science",
+        "Technical": ["Excel Spreadsheet"],
+        "Tasks":[
+                "Review Excel spreadsheets and reports",
+                "Analyzed information to ensure it matched actual document",
+                "Filtered cells as required",
+                "Completed any new changes to project plan",
+                "Color coated cells for right and wrong"
+            ],
+                    "Images":[]
+
+        },
+                {
+        "Name":"Follett Curbside",
+        "Platform" : "Web Application",
+        "Technical": [ "React.JS", "JavaScript", "Bootstrap"],
+        "Tasks":[
+                "Designed the order queue, order completed, & order running status pages",
+                "Discovered a way to filter each status page for the correct order"
+            ],
+                    "Images":[]
+
+        },
+          {
+        "Name":"Ninjashideout",
+        "Platform" : "Twitch Bot",
+        "Technical": [ "TMI.JS", "JavaScript"],
+        "Tasks":["Figured out how to connect TMI.JS to Twitch", 
+                "Developed a way to add commands to json file through one command",
+                "Discovered a way to delete links and bad words from the bot"
+            ],
+                    "Images":[]
+
+        }
+    ]
+
+}

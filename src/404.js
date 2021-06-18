@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Copyright from "../shared/copyright";
+import Copyright from "./copyright";
 
 const Error404 = () => {
   return (

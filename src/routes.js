@@ -3,11 +3,11 @@ import { Switch, Route } from "react-router";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./Home";
 import Nav from "./Navbar";
-import Error404 from "./404error/404";
+import Error404 from "./404";
 import Projects from "./projects";
 import About from "./skills";
-import "./routes.css";
-const Copyright = React.lazy(() => import("./shared/copyright"));
+import "./CSS/routes.css";
+const Copyright = React.lazy(() => import("./copyright"));
 
 
 const Routes = () => {
@@ -24,7 +24,7 @@ const Routes = () => {
               <Route path="**" exact component={Error404} />
             </Switch>
           </Fragment>
-          <Copyright/>
+        {/* <Copyright/> */}
         </Fragment>
       </Suspense>
     </Router>
