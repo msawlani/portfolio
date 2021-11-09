@@ -1,66 +1,13 @@
-nav {
-  margin: -8px;
-  padding: 20px 0px 0px;
-  height: 50px;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  float: left;
-  margin: 0 0 3em;
-  padding: 0 0 2px;
-  z-index: 1;
-}
-
-h3 {
-  color: white;
-}
-
 .main-nav{
-  color: white;
+  color: black;
+  
 }
 
 .main-nav:hover{
-  color: blue;
+  color:rgb(0, 119, 255);
   text-decoration: none;
 }
 
 .main-nav-active{
-  color: blue;
-}
-
-
-@media only screen and (max-width: 575px){
-    .name{
-      font-size: 15px;
-      padding-top: 10px;
-    }
-
-}
-@media only screen and (max-width: 767px){
-    .name{
-      font-size: 15px;
-      padding-top: 10px;
-    }
-
-}
-
-@media only screen and (max-width: 991px){
-    .name{
-      font-size: 15px;
-      padding-top: 10px;
-    }
-
-}
-
-@media only screen and (max-width: 1200px){
-    .name{
-      font-size: 15px;
-      padding-top: 10px;
-    }
-
+  color: rgb(0, 119, 255);
 }
