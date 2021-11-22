@@ -1,8 +1,15 @@
-h1{
-    font-size: 30px;
+
+
+
+
+.content{
+    float: left;
+    width: 50%;
 }
 
-p{
-    font-size: x-large;
+.content2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
