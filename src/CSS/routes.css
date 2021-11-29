@@ -1,7 +1,7 @@
-.body {
-  position: absolute;
-  height: auto !important;
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
+.app {
+  background: url("../assets/Images/hero1.jpeg") no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  width: 100vw;
+  height: 100vh;
 }
