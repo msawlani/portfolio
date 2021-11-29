@@ -9,7 +9,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^4.6.1",
     "browserify": "^16.5.1",
     "firebase": "^7.17.1",
     "pdf-viewer-reactjs": "^2.0.7",
@@ -21,10 +21,13 @@
     "react-pdf": "^4.2.0",
     "react-pwa": "^0.0.1",
     "react-responsive": "^8.1.0",
+    "react-responsive-carousel": "^3.2.22",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
-    "styled-components": "^5.3.3"
+    "react-use-system-theme": "^1.1.1",
+    "styled-components": "^5.3.3",
+    "webpack": "^4.42.0"
   },
   "scripts": {
     "start": "react-scripts start",
