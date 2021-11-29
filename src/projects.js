@@ -1,46 +1,49 @@
 import React, { Fragment } from "react";
 import "./CSS/projects.css";
 import projects from "./data/Projects.json";
+import { Carousel } from 'react-responsive-carousel';
+
 
 const Projects = () => {
   return (
     <Fragment>
       <Fragment>
-        <h1 className="mt-5 text-center">Projects</h1>
+        <h1 className="mt-5 text-white text-center">Projects</h1>
       </Fragment>
       <Fragment>
-        <ul>
-          {projects.Projects.map((projects) => (
-            <div className="pr-4 pb-4">
-              <div className="card d-flex m-4">
-                <div className="card-title mt-2 ml-4"></div>
-                <div className="card-body">
-                  {projects.Images.map((image) => (
-                    <div className="col-sm-6">
-                      <img
-                        class="img-fluid rounded  w-100 h-100"
-                        src={require(`./assets/Images/${image}.png`)}
-                      />
-                    </div>
-                  ))}
+      <div className="carousel-wrapper">
 
-                  <h2 className="">
-                    {projects.Name} | {projects.Platform}
-                  </h2>
-                  <p>{projects.Description}</p>
-                  <div className="">
-                    <h2>Technical</h2>
-                    <ul>
-                      {projects.Technical.map((technical) => (
-                        <li>{technical}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
+<Carousel>
+  {projects.Projects.map((projects) => (
+
+        <div className="card">
+          {projects.Images.map((image) => (
+            <div className="card-img-top">
+              <img
+                class="img-fluid rounded"
+                src={require(`./assets/Images/${image}.png`)}
+              />
             </div>
           ))}
-        </ul>
+<div className="card-body">
+          <h2 className="card-title">
+            {projects.Name} | {projects.Platform}
+          </h2>
+          <p className="card-text">{projects.Description}</p>
+          
+            <h2>Technical</h2>
+            <ul>
+              {projects.Technical.map((technical) => (
+                <li>{technical}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+    
+  ))}
+               </Carousel>
+  </div>
       </Fragment>
     </Fragment>
   );
