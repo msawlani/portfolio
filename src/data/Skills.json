@@ -1,28 +1,26 @@
 {
-    "Skills": [
-        {
-            "Name": "Languages",
-            "Skills": [
-                "CSS",
-                "HTML",
-                "C#",
-                "Java",
-                "Swift",
-                "Bootstrap",
-                "JavaScript"
-            ]
-        },
-        {
-            "Name": "Platforms",
-            "Skills": [
-                "React",
-                "NextJS",
-                "NodeJS",
-                "Visual Studio Code",
-                "React Native",
-                "Windows",
-                "Mac OS"
-            ]
-        }
-    ]
+    "Lang": {
+        "Name": "Languages",
+        "Skills": [
+            "CSS",
+            "HTML",
+            "C#",
+            "Java",
+            "Swift",
+            "Bootstrap",
+            "JavaScript"
+        ]
+    },
+    "Plat": {
+        "Name": "Platforms",
+        "Skills": [
+            "React",
+            "NextJS",
+            "NodeJS",
+            "Visual Studio Code",
+            "React Native",
+            "Windows",
+            "Mac OS"
+        ]
+    }
 }
