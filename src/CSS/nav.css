@@ -1,13 +1,12 @@
-.main-nav{
-  color: black;
-  
+.main-nav {
+  color: gray;
 }
 
-.main-nav:hover{
-  color:rgb(0, 119, 255);
+.main-nav:hover {
+  color: white;
   text-decoration: none;
 }
 
-.main-nav-active{
-  color: rgb(0, 119, 255);
+.main-nav-active {
+  color: white;
 }
