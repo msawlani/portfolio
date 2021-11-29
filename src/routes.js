@@ -14,7 +14,7 @@ const Routes = () => {
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
-        <Fragment>
+        <div className="app">
           <Nav />
           <Fragment>
             <Switch>
@@ -25,7 +25,7 @@ const Routes = () => {
             </Switch>
           </Fragment>
         {/* <Copyright/> */}
-        </Fragment>
+        </div>
       </Suspense>
     </Router>
   );
