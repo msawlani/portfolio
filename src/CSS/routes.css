@@ -1,7 +1,10 @@
 .app {
   background: url("../assets/Images/hero1.jpeg") no-repeat;
   background-size: cover;
-  background-clip: border-box;
-  width: 100vw;
+background-attachment: fixed;
+background-position: center center;
+
+  overflow: hidden;
   height: 100vh;
+  min-height: 100%;
 }
