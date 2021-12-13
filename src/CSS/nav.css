@@ -10,3 +10,7 @@
 .main-nav-active {
   color: white;
 }
+
+.navbar{
+  z-index: 2;
+}
