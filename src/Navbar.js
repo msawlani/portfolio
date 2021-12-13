@@ -34,9 +34,14 @@ const Nav = () => {
             </li>
           ))}
           <li>
-            <NavLink className="text-white" to={pdf} target="_blank" download={pdf}>
+            <NavLink
+              className="text-white"
+              to={pdf}
+              target="_blank"
+              download={pdf}
+            >
               Resume
-              </NavLink>
+            </NavLink>
           </li>
         </ul>
       </div>
