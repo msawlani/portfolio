@@ -7,6 +7,14 @@
         {
             "Name": "Projects",
             "To": "/projects"
+        },
+        {
+            "Name": "About",
+            "To": "/about"
+        },
+        {
+            "Name": "Contact",
+            "To": "/contact"
         }
     ]
 }
