@@ -1,10 +1,15 @@
 .app {
-  background: url("../assets/Images/hero1.jpeg") no-repeat;
+  /* background: url("../assets/Images/hero1.jpeg") no-repeat;
   background-size: cover;
 background-attachment: fixed;
-background-position: center center;
-
-  overflow: hidden;
+background-position: center center; */
+  background-color: black;
   height: 100vh;
-  min-height: 100%;
+}
+
+
+@media screen and (max-width: 991px){
+  .app{
+    height: 100%;
+  }
 }
