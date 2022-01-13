@@ -22,7 +22,8 @@
                         "Images": [],
                         "Website": "https://smartassist.pgpro.com/",
                         "class": "carousel-item active",
-                        "classI": "active"
+                        "classI": "active",
+                        "aCurrent":"true"
                 },
                 {
                         "Name": "Insurance Auto Auctions (IAA)",
@@ -40,7 +41,8 @@
                         "Images": [],
                         "Website": "",
                         "class": "carousel-item",
-                        "classI": ""
+                        "classI": "",
+                        "aCurrent":""
                 },
                 {
                         "Name": "MyPediatricMD",
@@ -56,7 +58,8 @@
                         ],
                         "Website": "http://mypediatricmd.com/",
                         "class": "carousel-item",
-                        "classI": ""
+                        "classI": "",
+                        "aCurrent":""
                 },
                 {
                         "Name": "Ninjashideout",
@@ -77,7 +80,8 @@
                         "Images": [],
                         "Website": "",
                         "class": "carousel-item",
-                        "classI": ""
+                        "classI": "",
+                        "aCurrent":""
                 },
                 {
                         "Name": "Workfront Management Report",
@@ -96,7 +100,8 @@
                         "Images": [],
                         "Website": "",
                         "class": "carousel-item",
-                        "classI": ""
+                        "classI": "",
+                        "aCurrent":""
                 }
         ]
 }

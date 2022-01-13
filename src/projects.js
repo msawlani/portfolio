@@ -1,4 +1,3 @@
-import { Button } from "bootstrap";
 import React, { Fragment } from "react";
 import "./CSS/projects.css";
 import projects from "./data/Projects.json";
@@ -12,22 +11,26 @@ const Projects = () => {
 
       <div
         id="carouselProjects"
-        class="carousel slide position-absolute"
+        class="carousel slide position-aboslute"
         data-bs-ride="carousel"
       >
-        <ol class="carousel-indicators position-fixed">
+          <div class="carousel-indicators position-fixed">
           {projects.Projects.map((projects, index) => (
-            <li
+            <button
+              type="button"
               data-target="#carouselProjects"
-              data-slide-to={index}
+              data-bs-slide-to={index}
               class={projects.classI}
-            ></li>
+              aria-current={projects.aCurrent}
+              aria-label={projects.Name}
+            ></button>
           ))}
-        </ol>
+  </div>
+
         <div className="carousel-inner">
           {projects.Projects.map((projects) => (
             <div className={projects.class}>
-              <div className="container">
+              <div className="container d-flex justify-content-center">
                 {projects.Images.map((image) => (
                   <div className="">
                     <img
@@ -56,25 +59,27 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        <a
+        <button
           class="carousel-control-prev position-fixed"
-          href="#carouselProjects"
-          role="button"
-          data-slide="prev"
+          data-bs-target="#carouselProjects"
+          type="button"
+          data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
+          <span class="visually-hidden">Previous</span>
 
-        <a
+        </button>
+
+        <button
           class="carousel-control-next position-fixed"
-          href="#carouselProjects"
-          role="button"
-          data-slide="next"
+          data-bs-target="#carouselProjects"
+          type="button"
+          data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <span class="visually-hidden">Next</span>
+
+        </button>
       </div>
     </div>
   );

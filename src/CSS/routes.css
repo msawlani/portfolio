@@ -5,11 +5,11 @@ background-attachment: fixed;
 background-position: center center; */
   background-color: black;
   height: 100vh;
+  overflow: scroll;
 }
 
-
-@media screen and (max-width: 991px){
-  .app{
+@media screen and (max-width: 991px) {
+  .app {
     height: 100%;
   }
 }
