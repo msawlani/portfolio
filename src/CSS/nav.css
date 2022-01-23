@@ -1,14 +1,16 @@
 .main-nav {
-  color: gray;
+  color: white;
+  opacity: .5;
 }
 
 .main-nav:hover {
   color: white;
+  opacity: 1;
   text-decoration: none;
 }
 
 .main-nav-active {
-  color: white;
+  opacity: 1;
 }
 
 .navbar{
