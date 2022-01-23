@@ -7,7 +7,6 @@ import Error404 from "./404";
 import Projects from "./projects";
 import About from "./about";
 import Contact from "./contact";
-import Skills from "./skills";
 import "./CSS/routes.css";
 const Copyright = React.lazy(() => import("./copyright"));
 
@@ -21,13 +20,12 @@ const Routes = () => {
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/projects" exact component={Projects} />
-              <Route path="/skills" exact component={Skills} />
               <Route path="/about" exact component={About} />
               <Route path="/contact" exact component={Contact} />
               <Route path="**" exact component={Error404} />
             </Switch>
           </Fragment>
-          {/* <Copyright/> */}
+          <Copyright />
         </div>
       </Suspense>
     </Router>
