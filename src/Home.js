@@ -4,16 +4,21 @@ import picture from "./assets/Images/picture.jpg";
 
 const App = () => {
   return (
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-2 col-md-4 ">
-          <h1 className="text-white font-weight-bold">
+    <div className="container p-5">
+      <div className="row">
+        <div className="col-md-5 align-self-center">
+          <span className="text-white fs-1 fw-bold ">
             I am a Software Developer determined on building products that
             change the world.
-          </h1>
+          </span>
         </div>
-        <div className="col-md-8 ">
-          <img className="img-fluid opacity-50" src={picture} />
+
+        <div className="col-7">
+          <img
+            className="img-fluid opacity-50"
+            src={picture}
+            alt="Michael Sawlani's Face"
+          />
         </div>
       </div>
     </div>
