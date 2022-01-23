@@ -2,7 +2,7 @@
         "Projects": [
                 {
                         "Name": "PGP Smart Assist",
-                        "Platform": "Progressive Web App",
+                        "Platform": "Web Developer",
                         "Technical": [
                                 "React.JS",
                                 "Next.JS",
@@ -19,30 +19,8 @@
                                 "Integrated PriceSpyder for each recommended product",
                                 "Designed the footer"
                         ],
-                        "Images": [],
-                        "Website": "https://smartassist.pgpro.com/",
-                        "class": "carousel-item active",
-                        "classI": "active",
-                        "aCurrent":"true"
-                },
-                {
-                        "Name": "Insurance Auto Auctions (IAA)",
-                        "Platform": "Data Science",
-                        "Technical": [
-                                "Excel Spreadsheet"
-                        ],
-                        "Tasks": [
-                                "Review Excel spreadsheets and reports",
-                                "Analyzed information to ensure it matched actual document",
-                                "Filtered cells as required",
-                                "Completed any new changes to project plan",
-                                "Color coated cells for right and wrong"
-                        ],
-                        "Images": [],
-                        "Website": "",
-                        "class": "carousel-item",
-                        "classI": "",
-                        "aCurrent":""
+                        "Image": "PGP-Smart-Assist",
+                        "Website": "https://smartassist.pgpro.com/"
                 },
                 {
                         "Name": "MyPediatricMD",
@@ -53,13 +31,8 @@
                                 "JavaScript"
                         ],
                         "Description": "",
-                        "Images": [
-                                "Home"
-                        ],
-                        "Website": "http://mypediatricmd.com/",
-                        "class": "carousel-item",
-                        "classI": "",
-                        "aCurrent":""
+                        "Image": "Home",
+                        "Website": "http://mypediatricmd.com/"
                 },
                 {
                         "Name": "Ninjashideout",
@@ -77,31 +50,8 @@
                                 "NPM"
                         ],
                         "Description": "This is a Twitch chat bot that runs in the background of my computer while I am streaming. It makes API calls to get data from twitch. Utilizes TMI.JS to connect to twitch servers which sends chat messages and also handles moderation for links and words. ",
-                        "Images": [],
-                        "Website": "",
-                        "class": "carousel-item",
-                        "classI": "",
-                        "aCurrent":""
-                },
-                {
-                        "Name": "Workfront Management Report",
-                        "Platform": "Website",
-                        "Technical": [
-                                "Nodemon NPM",
-                                "Node.js",
-                                "Javascript",
-                                "CSS",
-                                "HTML",
-                                "NPM",
-                                "Workfront API",
-                                "Visual Studio Code"
-                        ],
-                        "Description": "Helped design a table for Workfront APi calling which is used for project management. it displays remaining and total for hours and revenue for different projects. One of the achievements was to separate header from the rest of the table and make header sticky.",
-                        "Images": [],
-                        "Website": "",
-                        "class": "carousel-item",
-                        "classI": "",
-                        "aCurrent":""
+                        "Image": "Twitch-Bot",
+                        "Website": ""
                 }
         ]
 }
