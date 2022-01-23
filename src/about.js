@@ -6,26 +6,27 @@ import pdf from "./assets/Michael_Sawlani_Resume.pdf";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container text-white">
+      <p>BIO</p>
       <NavLink
-        className="text-white text-decoration-none"
+        className="text-decoration-none"
         to={pdf}
         target="_blank"
         download={pdf}
       >
         Resume
       </NavLink>
-      <div className="d-flex text-white row">
+      <div className="d-flex row pt-4">
         <div className="col-lg-2">
           <h4>{skills.Lang.Name}</h4>
-          {skills.Lang.Skills.map((name) => (
-            <li>{name}</li>
+          {skills.Lang.Skills.map((name, id) => (
+            <li key={id}>{name}</li>
           ))}
         </div>
         <div className="col-lg-2">
           <h4>{skills.Plat.Name}</h4>
-          {skills.Plat.Skills.map((name) => (
-            <li>{name}</li>
+          {skills.Plat.Skills.map((name, id) => (
+            <li key={id}>{name}</li>
           ))}
         </div>
       </div>
