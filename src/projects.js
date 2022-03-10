@@ -1,23 +1,21 @@
 import React from "react";
 import "./CSS/projects.css";
-import { Link } from "react-router-dom";
 import projects from "./data/Projects.json";
 
 const Projects = () => {
   return (
     <div className="text-white">
       <h1 className="pb-5 text-center">Projects</h1>
-
       <div className="container">
-        <div className="row row-cols-2 g-3">
-          {projects.Projects.map((projects, id) => (
-            <div key={id}>
-              <div className="position-relative">
+        <div className="row">
+          {projects.Projects.map((projects, id) => (          
+          <div className="card mb-5"key={id}>
                 <img
-                  className="rounded img-fluid"
+                  className="rounded img-fluid card-img-top"
                   src={require(`./assets/Images/${projects.Image}.png`)}
                   alt={projects.Image}
                 />
+                <div className="card-body text-black">
                 <p className="fs-1 fw-bold">
                   {projects.Name} | {projects.Platform}
                 </p>
@@ -38,9 +36,13 @@ const Projects = () => {
                     <li key={id}>{technical}</li>
                   ))}
                 </ul>
-              </div>
-            </div>
+                </div>
+
+              </div>          
+
+
           ))}
+
         </div>
       </div>
     </div>
