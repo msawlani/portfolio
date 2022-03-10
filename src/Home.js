@@ -4,16 +4,15 @@ import picture from "./assets/Images/picture.jpg";
 
 const App = () => {
   return (
-    <div className="container p-5">
+    <div className="container">
       <div className="row">
-        <div className="col-md-5 align-self-center">
-          <span className="text-white fs-1 fw-bold ">
-            I am a Software Developer determined on building products that
-            change the world.
+        <div className="col-12 col-sm-5 offset-sm-1 align-self-center">
+          <span className="text-white fs-1 fw-bold">
+            I am a Software Developer determined on building products customers want.
           </span>
         </div>
 
-        <div className="col-7">
+        <div className="col-12 col-sm-5">
           <img
             className="img-fluid opacity-50"
             src={picture}
