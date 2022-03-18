@@ -8,7 +8,8 @@ const App = () => {
       <div className="row">
         <div className="col-12 col-sm-5 offset-sm-1 align-self-center">
           <span className="text-white fs-1 fw-bold">
-            I am a Software Developer determined on building products customers want.
+            I am a Software Developer determined on building products that
+            customers want.
           </span>
         </div>
 
