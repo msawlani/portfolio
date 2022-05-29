@@ -4,23 +4,29 @@
         "Skills": [
             "CSS",
             "HTML",
-            "C#",
-            "Java",
-            "Swift",
-            "Bootstrap",
-            "JavaScript"
+            "Python",
+            "TypeScript",
+            "SCSS",
+            "jQuery",
+            "JavaScript",
+            "SQL"
         ]
     },
     "Plat": {
-        "Name": "Platforms",
+        "Name": "Technologies",
         "Skills": [
-            "React",
+            "ReactJS",
             "NextJS",
             "NodeJS",
-            "Visual Studio Code",
-            "React Native",
-            "Windows",
-            "Mac OS"
+            "Figma",
+            "Git",
+            "Google Firebase",
+            "AngularJS",
+            "MongoDB",
+            "Trello",
+            "Jira",
+            "MySQL",
+            "JSON"
         ]
     }
 }
