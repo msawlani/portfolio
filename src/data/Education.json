@@ -1,0 +1,28 @@
+{
+    "Education": [
+        {
+            "school": "Full Sail University",
+            "Degree": "Bachelors",
+            "Field_of_Study": "Software Development",
+            "Graduation": "2019"
+        },
+        {
+            "school": "Atlantis University",
+            "Degree": "Masters",
+            "Field_of_Study": "Information Technology & Computer Engineering",
+            "Graduation": "2022"
+        }
+    ],
+    "Certifications": [
+        {
+            "school": "Hong Kong University of Science & Technology",
+            "subject": "Server-side Development with NodeJS, Express and MongoDB",
+            "issued": "2022"
+        },
+        {
+            "school": "Hong Kong University of Science & Technology",
+            "subject": "Front-End Web UI Frameworks and Tools: Bootstrap 4",
+            "issued": "2022"
+        }
+    ]
+}
