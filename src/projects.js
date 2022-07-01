@@ -1,5 +1,4 @@
 import React from "react";
-import "./CSS/projects.css";
 import projects from "./data/Projects.json";
 
 const Projects = () => {
@@ -8,14 +7,14 @@ const Projects = () => {
       <h1 className="pb-5 text-center">Projects</h1>
       <div className="container">
         <div className="row">
-          {projects.Projects.map((projects, id) => (          
-          <div className="card mb-5"key={id}>
-                <img
-                  className="rounded img-fluid card-img-top"
-                  src={require(`./assets/Images/${projects.Image}.png`)}
-                  alt={projects.Image}
-                />
-                <div className="card-body text-black">
+          {projects.Projects.map((projects, id) => (
+            <div className="card mb-5" key={id}>
+              <img
+                className="rounded img-fluid card-img-top"
+                src={require(`./assets/Images/${projects.Image}.png`)}
+                alt={projects.Image}
+              />
+              <div className="card-body text-black">
                 <p className="fs-1 fw-bold">
                   {projects.Name} | {projects.Platform}
                 </p>
@@ -36,13 +35,9 @@ const Projects = () => {
                     <li key={id}>{technical}</li>
                   ))}
                 </ul>
-                </div>
-
-              </div>          
-
-
+              </div>
+            </div>
           ))}
-
         </div>
       </div>
     </div>
