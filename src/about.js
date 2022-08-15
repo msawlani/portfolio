@@ -3,6 +3,7 @@ import skills from "./data/Skills.json";
 import education from "./data/Education.json";
 import { NavLink } from "react-router-dom";
 import pdf from "./assets/Michael_Sawlani_Resume.pdf";
+import Links from "./data/SocialLinks.json";
 
 const About = () => {
   return (
@@ -20,14 +21,33 @@ const About = () => {
         etc. His ultimate goal as a developer is to continue to thrive and to
         have a impact on the world today.
       </p>
-      <NavLink
-        className="text-decoration-none"
-        to={pdf}
-        target="_blank"
-        download={pdf}
-      >
-        Resume
-      </NavLink>
+      <h1>Links</h1>
+      <nav className="navbar navbar-expand-sm navbar-dark">
+        <ul className="navbar-nav">
+          {Links.Links.map((link, id) => (
+            <li className="align-middle" key={id}>
+              <a
+                className=" m-3 text-decoration-none"
+                href={link.To}
+                target="_blank"
+              >
+                {link.Name}
+              </a>
+            </li>
+          ))}
+          <li className="align-middle">
+            <a
+              className=" m-3 text-decoration-none "
+              target="_blank"
+              href={pdf}
+              download={pdf}
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
+      </nav>
+
       <div className="d-flex row pt-4">
         <h1>Skills</h1>
         <div className="col-12 col-sm-3">
