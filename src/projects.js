@@ -24,7 +24,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  {projects.Website === "" ? "" : projects.Name}
+                  {projects.Website}
                 </a>
 
                 <p className="">{projects.Description}</p>
@@ -33,6 +33,20 @@ const Projects = () => {
                 <ul>
                   {projects.Technical.map((technical, id) => (
                     <li key={id}>{technical}</li>
+                  ))}
+                </ul>
+                <p className="fs-4 fw-bold">Links</p>
+                <ul>
+                  {projects.Links?.map((link, id) => (
+                    <li key={id}>
+                      <a
+                        href={link?.to}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {link?.name}
+                      </a>
+                    </li>
                   ))}
                 </ul>
               </div>

@@ -50,8 +50,38 @@
                                 "NPM"
                         ],
                         "Description": "This is a Twitch chat bot that runs in the background of my computer while I am streaming. It makes API calls to get data from twitch. Utilizes TMI.JS to connect to twitch servers which sends chat messages and also handles moderation for links and words. ",
-                        "Image": "Twitch-Bot",
-                        "Website": ""
+                        "Image": "Twitch-Bot"
+                },
+                {
+                        "Name": "Pseudo Wire",
+                        "Platform": "Self Project",
+                        "Technical": [
+                                "Javascript",
+                                "Visual Studio Code",
+                                "HTML",
+                                "JSON",
+                                "Figma",
+                                "Trello",
+                                "Node.JS",
+                                "NPM",
+                                "Monaco Editor",
+                                "Judge-0 API",
+                                "Bootstrap",
+                                "CSS"
+                        ],
+                        "Description": "",
+                        "Image": "PseudoWire-home",
+                        "Website": "",
+                        "Links": [
+                                {
+                                        "name": "Github Repo",
+                                        "to": "https://github.com/msawlani/pseudo-wire"
+                                },
+                                {
+                                        "name": "Trello Board",
+                                        "to": "https://trello.com/b/pZzdqO4T/pesduowire"
+                                }
+                        ]
                 }
         ]
 }
