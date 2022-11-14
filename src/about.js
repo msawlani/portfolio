@@ -11,11 +11,10 @@ const About = () => {
       <h1>BIO</h1>
       <p className="p-4">
         Michael is a Full Stack Developer with 5+ years in the industry and
-        currently works as a Mulesoft Developer for a Sogeti client KPMG. He
-        graduated in 2019 with a Software Development Bachelors from Full Sail
-        University and is now pursuing a Masters in Information Technology &
-        Computer Engineering at Atlantis University. He is expected to graduate
-        by the end of 2022. While doing his Bachelors, he was working as a
+        currently works as a Consultant for Sogeti. He graduated in 2019 with a
+        Software Development Bachelors from Full Sail University and is now
+        pursuing a Masters in Information Technology & Computer Engineering at
+        Atlantis University. While doing his Bachelors, he was working as a
         remote Web Developer for MD Pediatric Center. So far the skills that he
         has picked up are HTML, JavaScript, TypeScript, CSS, React, Angular,
         etc. His ultimate goal as a developer is to continue to thrive and to

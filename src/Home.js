@@ -21,7 +21,7 @@ const App = () => {
               alt="Michael Sawlani's Face"
             />
           </div>
-        </div>{" "}
+        </div>
       </Fade>
     </div>
   );

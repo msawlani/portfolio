@@ -1,6 +1,6 @@
 .main-nav {
   color: white;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .main-nav:hover {
@@ -13,6 +13,16 @@
   opacity: 1;
 }
 
-.navbar{
+.navbar {
   z-index: 2;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
