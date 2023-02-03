@@ -4,6 +4,7 @@ import education from "./data/Education.json";
 import { NavLink } from "react-router-dom";
 import pdf from "./assets/Michael_Sawlani_Resume.pdf";
 import Links from "./data/SocialLinks.json";
+import { FadeTransform, Fade, Stagger } from "react-animation-components";
 
 const About = () => {
   return (
@@ -12,15 +13,15 @@ const About = () => {
       <p className="p-4">
         Michael is a Full Stack Developer with 5+ years in the industry and
         currently works as a Consultant for Sogeti. He graduated in 2019 with a
-        Software Development Bachelors from Full Sail University and is now
-        pursuing a Masters in Information Technology & Computer Engineering at
-        Atlantis University. While doing his Bachelors, he was working as a
-        remote Web Developer for MD Pediatric Center. So far the skills that he
-        has picked up are HTML, JavaScript, TypeScript, CSS, React, Angular,
-        etc. His ultimate goal as a developer is to continue to thrive and to
-        have a impact on the world today.
+        bachelors in software development from Full Sail University. he has
+        recently achieved a certificate in full-stack development. The projects
+        that he has worked on are a Twitch bot with frontend and backend, PGP
+        Smart Assist, and helping train car documents through an AI. So far the
+        skills that he has picked up are HTML, JavaScript, TypeScript, CSS,
+        React, Angular, etc. His ultimate goal as a developer is to continue to
+        thrive and to have an impact on the world today.
       </p>
-      <h1>Links</h1>
+      <h1 className="navbar">Links</h1>
       <nav className="navbar navbar-expand-sm navbar-dark">
         <ul className="navbar-nav">
           {Links.Links.map((link, id) => (
