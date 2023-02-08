@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark">
       <div className="container">
-        <span className="align-middle text-white fs-1 fw-bold col-md-8 m-3">
+        <span className="align-middle text-white fs-1 fw-bold col-md-6 m-3">
           Michael Sawlani
         </span>
         <button

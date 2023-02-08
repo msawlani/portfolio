@@ -8,6 +8,7 @@ import Projects from "./projects";
 import About from "./about";
 import Contact from "./contact";
 import "./CSS/routes.css";
+import ProjectDesigns from "./projectDesigns";
 const Copyright = React.lazy(() => import("./copyright"));
 
 const Routes = () => {
@@ -20,6 +21,7 @@ const Routes = () => {
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/projects" exact component={Projects} />
+              <Route path="/designs" exact component={ProjectDesigns} />
               <Route path="/about" exact component={About} />
               <Route path="/contact" exact component={Contact} />
               <Route path="**" exact component={Error404} />

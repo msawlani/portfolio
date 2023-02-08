@@ -9,6 +9,10 @@
             "To": "/projects"
         },
         {
+            "Name": "Designs",
+            "To": "/designs"
+        },
+        {
             "Name": "About",
             "To": "/about"
         },

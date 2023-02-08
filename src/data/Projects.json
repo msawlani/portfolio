@@ -12,7 +12,8 @@
                                 "Bootstrap",
                                 "CSS",
                                 "Salesforce Pardot",
-                                "PriceSpyder"
+                                "PriceSpyder",
+                                "Figma"
                         ],
                         "Tasks": [
                                 "Implemented emailing results by using Salesforce Pardot",
@@ -47,7 +48,8 @@
                                 "2g.be API Calls",
                                 "Node.JS",
                                 "Nodemon NPM",
-                                "NPM"
+                                "NPM",
+                                "Figma"
                         ],
                         "Description": "This is a Twitch chat bot that runs in the background of my computer while I am streaming. It makes API calls to get data from twitch. Utilizes TMI.JS to connect to twitch servers which sends chat messages and also handles moderation for links and words. ",
                         "Image": "Twitch-Bot"
