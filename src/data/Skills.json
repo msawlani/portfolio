@@ -9,7 +9,8 @@
             "SCSS",
             "jQuery",
             "JavaScript",
-            "SQL"
+            "SQL",
+            "C#"
         ]
     },
     "Plat": {
@@ -26,7 +27,10 @@
             "Trello",
             "Jira",
             "MySQL",
-            "JSON"
+            "JSON",
+            "ASP.NET Core",
+            "GitHub",
+            "Restful APIs"
         ]
     }
 }

@@ -56,7 +56,7 @@
                 },
                 {
                         "Name": "Pseudo Wire",
-                        "Platform": "Self Project",
+                        "Platform": "Project",
                         "Technical": [
                                 "Javascript",
                                 "Visual Studio Code",
