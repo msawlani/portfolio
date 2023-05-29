@@ -27,7 +27,6 @@ const Routes = () => {
               <Route path="**" exact component={Error404} />
             </Switch>
           </Fragment>
-          <Copyright />
         </div>
       </Suspense>
     </Router>
