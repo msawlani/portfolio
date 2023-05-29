@@ -2,7 +2,7 @@ import React from "react";
 import skills from "./data/Skills.json";
 import education from "./data/Education.json";
 import { NavLink } from "react-router-dom";
-import pdf from "./assets/MICHAEL_SAWLANI_Resume.pdf";
+import pdf from "./assets/Michael_Sawlani_Resume.pdf";
 import Links from "./data/SocialLinks.json";
 import { FadeTransform, Fade, Stagger } from "react-animation-components";
 
