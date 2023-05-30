@@ -1,5 +1,4 @@
 import React from "react";
-import picture from "./assets/Images/picture.jpg";
 import "./CSS/home.css";
 
 const App = () => {
