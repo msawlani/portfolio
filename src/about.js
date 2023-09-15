@@ -1,52 +1,49 @@
 import React from "react";
 import skills from "./data/Skills.json";
-import education from "./data/Education.json";
-import { NavLink } from "react-router-dom";
+
 import pdf from "./assets/Michael_Sawlani_Resume.pdf";
 import Links from "./data/SocialLinks.json";
-import { FadeTransform, Fade, Stagger } from "react-animation-components";
-
+import "./CSS/about.css";
 const About = () => {
   return (
     <div className="container text-white overflow-auto">
       <h1>BIO</h1>
       <p className="p-4">
-        Michael is a Full Stack Developer with 5+ years in the industry. He
-        graduated in 2019 with a bachelors in software development from Full
-        Sail University. He has recently achieved a certificate in full-stack
-        development. The projects that he has worked on are a Twitch bot with
-        frontend and backend, PGP Smart Assist, and helping train car documents
-        through an AI. So far the skills that he has picked up are HTML,
-        JavaScript, TypeScript, CSS, React, Angular, etc. His ultimate goal as a
-        developer is to continue to thrive and to have an impact on the world
-        today.
+        Michael is a Full Stack Developer with 5+ years in the industry. He has
+        recently achieved a certificate in full-stack development. The projects
+        that he has worked on are a Twitch bot with frontend and backend, PGP
+        Smart Assist, and helping train car documents through an AI. So far the
+        skills that he has picked up are HTML, JavaScript, TypeScript, CSS,
+        React, Angular, etc. He has started to dive deeper in ASP.NET and C#.
+        His ultimate goal as a developer is to continue to thrive and to have an
+        impact on the world today.
       </p>
-      <h1 className="navbar">Links</h1>
-      <nav className="navbar navbar-expand-sm navbar-dark">
-        <ul className="navbar-nav">
-          {Links.Links.map((link, id) => (
-            <li className="align-middle" key={id}>
-              <a
-                className=" m-3 text-decoration-none"
-                href={link.To}
-                target="_blank"
-              >
-                {link.Name}
-              </a>
-            </li>
-          ))}
-          <li className="align-middle">
+      <h1>Links</h1>
+      <ul className="d-flex list-unstyled">
+        {Links.Links.map((link, id) => (
+          <li key={id}>
             <a
-              className=" m-3 text-decoration-none "
+              className=" m-3 text-decoration-none links"
+              href={link.To}
               target="_blank"
-              href={pdf}
-              download={pdf}
+              rel="noopener noreferrer"
             >
-              Resume
+              {link.Name}
             </a>
           </li>
-        </ul>
-      </nav>
+        ))}
+        <li>
+          <a
+            className=" m-3 text-decoration-none links"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={pdf}
+            download={pdf}
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
 
       <div className="d-flex row pt-4">
         <h1>Skills</h1>
