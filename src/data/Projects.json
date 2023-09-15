@@ -40,7 +40,7 @@
                         "Platform": "Twitch Bot",
                         "Technical": [
                                 "Javascript",
-                                "Visual Studio Code",
+                                "React.JS",
                                 "TMI.JS",
                                 "JSON",
                                 "Crunchprank API Calls",
@@ -48,11 +48,20 @@
                                 "2g.be API Calls",
                                 "Node.JS",
                                 "Nodemon NPM",
-                                "NPM",
-                                "Figma"
+                                "MongoDB",
+                                "HTML",
+                                "ExpressJS",
+                                "Bootstrap",
+                                "Render for hosting"
                         ],
                         "Description": "This is a Twitch chat bot that runs in the background of my computer while I am streaming. It makes API calls to get data from twitch. Utilizes TMI.JS to connect to twitch servers which sends chat messages and also handles moderation for links and words. ",
-                        "Image": "Twitch-Bot"
+                        "Image": "Twitch-Bot",
+                        "Links": [
+                                {
+                                        "name": "Website",
+                                        "to": "https://ninjashideout-twitch-bot.onrender.com"
+                                }
+                        ]
                 },
                 {
                         "Name": "Pseudo Wire",

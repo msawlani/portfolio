@@ -14,8 +14,9 @@ const About = () => {
         that he has worked on are a Twitch bot with frontend and backend, PGP
         Smart Assist, and helping train car documents through an AI. So far the
         skills that he has picked up are HTML, JavaScript, TypeScript, CSS,
-        React, Angular, etc. His ultimate goal as a developer is to continue to
-        thrive and to have an impact on the world today.
+        React, Angular, etc. He has started to dive deeper in ASP.NET and C#.
+        His ultimate goal as a developer is to continue to thrive and to have an
+        impact on the world today.
       </p>
       <h1>Links</h1>
       <ul className="d-flex list-unstyled">
