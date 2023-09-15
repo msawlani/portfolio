@@ -15,7 +15,6 @@
 
 .navbar {
   z-index: 2;
-  animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {

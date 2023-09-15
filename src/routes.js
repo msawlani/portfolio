@@ -9,7 +9,6 @@ import About from "./about";
 import Contact from "./contact";
 import "./CSS/routes.css";
 import ProjectDesigns from "./projectDesigns";
-const Copyright = React.lazy(() => import("./copyright"));
 
 const Routes = () => {
   return (
