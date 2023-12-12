@@ -1,7 +1,7 @@
 import React from "react";
 import skills from "./data/Skills.json";
 
-import pdf from "./assets/Michael_Sawlani_Resume.pdf";
+import pdf from "./assets/michael_sawlani_resume.pdf";
 import Links from "./data/SocialLinks.json";
 import "./CSS/about.css";
 const About = () => {
@@ -9,14 +9,14 @@ const About = () => {
     <div className="container text-white overflow-auto">
       <h1>BIO</h1>
       <p className="p-4">
-        Michael is a Full Stack Developer with 5+ years in the industry. He has
-        recently achieved a certificate in full-stack development. The projects
-        that he has worked on are a Twitch bot with frontend and backend, PGP
-        Smart Assist, and helping train car documents through an AI. So far the
-        skills that he has picked up are HTML, JavaScript, TypeScript, CSS,
-        React, Angular, etc. He has started to dive deeper in ASP.NET and C#.
-        His ultimate goal as a developer is to continue to thrive and to have an
-        impact on the world today.
+        Michael is a Full Stack Developer with 5+ years in the industry. The
+        projects that he has worked on are a Twitch bot with frontend and
+        backend, PGP Smart Assist, and helping train car documents through an
+        AI. So far the skills that he has picked up are HTML, JavaScript,
+        TypeScript, CSS, React, Angular, etc. He has started to dive deeper in
+        Python and ML to ultimately create models that do amazing things. His
+        end game as a developer is to continue to thrive and to have an impact
+        on the world today.
       </p>
       <h1>Links</h1>
       <ul className="d-flex list-unstyled">

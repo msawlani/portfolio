@@ -30,6 +30,7 @@
     "react-transition-group": "^2.2.1",
     "react-use-system-theme": "^1.1.1",
     "styled-components": "^5.3.3",
+    "three": "^0.159.0",
     "webpack": "^4.42.0"
   },
   "scripts": {
