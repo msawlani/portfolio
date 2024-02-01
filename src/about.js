@@ -1,7 +1,7 @@
 import React from "react";
 import skills from "./data/Skills.json";
 
-import pdf from "./assets/michael_sawlani_resume.pdf";
+import pdf from "./assets/Michael_Sawlani_Resume.pdf";
 import Links from "./data/SocialLinks.json";
 import "./CSS/about.css";
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
     <div className="container text-white overflow-auto">
       <h1>BIO</h1>
       <p className="p-4">
-        Michael is a Full Stack Developer with 5+ years in the industry. The
+        Michael is a Frontend Developer with 5+ years in the industry. The
         projects that he has worked on are a Twitch bot with frontend and
         backend, PGP Smart Assist, and helping train car documents through an
         AI. So far the skills that he has picked up are HTML, JavaScript,
