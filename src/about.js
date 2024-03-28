@@ -9,14 +9,14 @@ const About = () => {
     <div className="container text-white overflow-auto">
       <h1>BIO</h1>
       <p className="p-4">
-        Michael is a Frontend Developer with 5+ years in the industry. The
+        Michael is a Frontend Developer with 3+ years in the industry. The
         projects that he has worked on are a Twitch bot with frontend and
         backend, PGP Smart Assist, and helping train car documents through an
         AI. So far the skills that he has picked up are HTML, JavaScript,
         TypeScript, CSS, React, Angular, etc. He has started to dive deeper in
         Python and ML to ultimately create models that do amazing things. His
-        end game as a developer is to continue to thrive and to have an impact
-        on the world today.
+        end game as a developer is to continue to thrive and make a difference
+        in todays society .
       </p>
       <h1>Links</h1>
       <ul className="d-flex list-unstyled">
